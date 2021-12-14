@@ -58,34 +58,7 @@ void Menu::Draw_Selection()
 
 void Menu::choose()
 {
-	char key = ' ';
-	Initialize_Title();
-	Initialize_Menu();
-	Music();
-	while (true)
-	{
-		if (_kbhit())
-		{
-			key = toupper(_getch());
-			switch (key)
-			{
-			case 'W':
-				state_M--;
-				break;
-			case 'S':
-				state_M++;
-				break;
-			}
-			if (state_M == 0)
-				state_M = 5;
-			else if (state_M == 6)
-				state_M = 1;
-			Draw_Selection();
-		}
-		if (key == char(13))
-			break;
-		Initialize_Title();
-	}
+	
 }
 
 void Menu::Draw_Setting_S()
@@ -191,7 +164,34 @@ void Menu::Quit()
 
 void Menu::Choose_Menu()
 {
-	choose();
+	char key = ' ';
+	Initialize_Title();
+	Initialize_Menu();
+	Music();
+	while (true)
+	{
+		if (_kbhit())
+		{
+			key = toupper(_getch());
+			switch (key)
+			{
+			case 'W':
+				state_M--;
+				break;
+			case 'S':
+				state_M++;
+				break;
+			}
+			if (state_M == 0)
+				state_M = 5;
+			else if (state_M == 6)
+				state_M = 1;
+			Draw_Selection();
+		}
+		if (key == char(13))
+			break;
+		Initialize_Title();
+	}
 	switch (state_M)
 	{
 	case 1:

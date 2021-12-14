@@ -1,15 +1,7 @@
 #ifndef _ANIMAL_H_
 #define _ANIMAL_H_
 #pragma once
-#include <iostream>
-#include <string>
-#include <Windows.h>
-#include <fstream>
-#include <vector>
-#include "Graphic.h"
 #include "Console_Game.h"
-using namespace std;
-#pragma execution_character_set("utf-8")
 
 class Animal {
 protected:

@@ -1,7 +1,7 @@
 #ifndef _MENU_H_
 #define _MENU_H_
 #include "Console_Game.h"
-#include "Graphic.h"
+
 
 class Menu
 {

@@ -1,17 +1,7 @@
 #ifndef _VEHICLE_H_
 #define _VEHICLE_H_
 #pragma once
-#include <iostream>
-#include <string>
-#include <Windows.h>
-#include <fstream>
-#include <random>
-#include <algorithm>
-#include <vector>
-#include "Graphic.h"
 #include "Console_Game.h"
-using namespace std;
-#pragma execution_character_set("utf-8")
 
 class Vehicle {
 protected:

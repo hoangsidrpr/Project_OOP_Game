@@ -20,7 +20,7 @@ Game::Game(const short& width, const short& height, const wstring& title, const 
 	console.SetSize(width, height);
 	console.SetCursor(cursor);
 	console.QuickEdit(cursor);
-	console.SetBufferSize();
+	//console.SetBufferSize();
 	SetConsoleTitleW(title.c_str());
 	SetConsoleOutputCP(CP_UTF8);
 	key_moving = ' ';

@@ -3,7 +3,6 @@
 
 #include "Sound.h"
 #include "Console_Game.h"
-#include "Graphic.h"
 #include "TrafficLight.h"
 #include "Character.h"
 #include "Menu.h"
