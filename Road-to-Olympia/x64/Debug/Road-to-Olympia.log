@@ -1,0 +1,17 @@
+﻿  Animal.cpp
+  Car.cpp
+  Character.cpp
+  Console_Game.cpp
+  Dog.cpp
+  Game.cpp
+C:\Users\ACER\Desktop\tri\LTHDT\Project_Crossing_Game\Code_game\Tuyen\Road-to-Olympia\Game.cpp(56,15): warning C4101: 'Console_G': unreferenced local variable
+  Main.cpp
+C:\Users\ACER\Desktop\tri\LTHDT\Project_Crossing_Game\Code_game\Tuyen\Road-to-Olympia\Main.cpp(6,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Menu.cpp
+  Snake.cpp
+  Sound.cpp
+  TrafficLight.cpp
+  Truck.cpp
+  Vehicle.cpp
+  Generating Code...
+  Road-to-Olympia.vcxproj -> C:\Users\ACER\Desktop\tri\LTHDT\Project_Crossing_Game\Code_game\Tuyen\x64\Debug\Road-to-Olympia.exe
